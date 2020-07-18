@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="css/main.css"> 
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/register.css">
+</head> 
+<header> 
+  <div class="header_container">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <li class="fas fa-umbrella-beach fa-4x" aria-hidden="true" style="font-size:40px;color:black;"></li>
+    <h1>Travel Experts</h1> 
+    <nav class = "nav">
+      <button class="menu_btn">MENU</button>
+      <ul>
+        <li><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
+        <li><a href="index.html"#gallery><i class="fas fa-images"></i>Gallery</a></li>
+        <li><a href="index.html"#contact><i class="fas fa-file-signature"></i>Contact Us</a></li>
+        <li class="highlight"><a href="register.html"><i class="fa fa-registered" aria-hidden="true"></i>Register</a></li>
+        <li><a href="login.html"><i class="fas fa-sign-in-alt"></i>Log In</a></li>
+      </ul>
+    </nav>
+   </div> 
+</header>  
+<body class="sky"> 
+ <main class="register_form">
+   <form action="#" method="post">
+     <div class="container_register">
+       <h2>Registration Page</h2>
+       <div>
+         <label for="name_input" class="required">Full Name</label>
+         <input type="text" name="name" id="name_input" maxlength="25" class="register_box" placeholder="Enter your full name" required>
+          <div>
+             <label for="email_input" class="required">Email Address</label>
+             <input type="email" name="email" id="email_input" maxlength="25" class="register_box" placeholder="Enter your email address" required>
+             <div>
+               <label for="pass_input" class="required">Password</label>
+               <input type="password" name="password" id="pass_input" minlength="8" class="register_box" placeholder="Enter your password" required>
+               <div>
+                 <label for="pass_confirm" class="required">Confirm Password</label>
+                 <input type="password" name="pass_confirm" id="pass_confirm" minlength="8" class="register_box" placeholder="Confirm your password" required>
+                 <div>
+                   <input type="submit" value="Register" id="form_submit"> 
+                   <input type="checkbox" name="Subscribe" id="form_checkup"> Subscribe to Our Newsletter
+                   </div>
+                 </div>
+               </div>
+            </div>
+          </div>
+        </div>
+    </form>
+  </main>
+  <script src="js/gallery.js"></script>
+  <script src="js/toggle.js"></script>
+</body> 
+<footer>
+Copyright&copy; 2020 Vadim Savenkov
+</footer>
+</html>
